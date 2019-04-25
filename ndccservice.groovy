@@ -1,5 +1,5 @@
 node {
-   def mvnHome
+ //  def mvnHome
    def gradleHome
 	
    stage('Preparation') { // for display purposes
@@ -8,7 +8,7 @@ node {
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
-      mvnHome = tool 'M3'
+     // mvnHome = tool 'M3'
       gradleHome = tool 'gradle'	   
    }
  /*  stage('Build') {
